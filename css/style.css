@@ -1,0 +1,170 @@
+.shadow-10
+{
+    box-shadow: 10px 10px 25px black;
+}
+.p{
+    background-color: brown;
+}
+.j{
+    color: white;
+}
+
+.re:focus
+{
+    outline: 0;
+   
+}
+.bg{
+background-color: white;
+}
+.bc{
+    font-size: 20px;
+}
+.p{
+border: none;
+}
+.s{
+    font-size: 20px
+}
+.t{
+color: cornflowerblue;
+}
+.b{
+    font-size: 15px;
+    color: black;
+}
+.k{
+height: 30px;
+width: 30px;
+border-radius: 15px;
+color: white;
+background-color: blue;
+margin-left: 0px;
+}
+
+.abc{
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+        color: white;
+        background-color: blue;
+        margin-left: 50px;
+}
+.kf{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    margin-left: 580px;
+    }
+    .gh{
+    
+            height: 30px;
+            width: 30px;
+            border-radius: 15px;
+            color: white;
+            background-color: blue;
+            margin-top: 5px;
+    }
+    .b{
+        color: black;
+    }
+    .e{
+        color: green;
+    }
+    .mn{
+        box-shadow: 2px 2px 2px 2px pink;
+
+    }
+    .f{
+        color: yellow;
+    }
+    .hr{
+
+        color: white;
+    }
+    .ex{
+        animation: colors 3s infinite;
+        /* height: 20px;
+        width: 20px;*/
+        background-color: red;
+    }
+    @keyframes colors {
+        0% {
+            background-color: red;
+        }
+        25% {
+            background-color: gold;
+        }
+        50% {
+            background-color: blue;
+        }
+        75%{
+            background-color: green;
+        }
+        100% {
+            background-color: aqua;
+        }
+    }
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 10px;
+    float: left;
+    animation: 1.5s infinite anim-div;
+    margin-top: 20px;
+}
+@keyframes anim-div{
+    0%{transform: rotatez(0);}
+    100%{transform: rotatez(90deg);}
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    float: left;
+    animation: 1.5s infinite anim-one;
+    margin-top: 20px;
+}
+@keyframes anim-one{
+    0%{transform: rotatey(0);}
+    100%{transform: rotatey(90deg);}
+}
+.th{
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+    margin: 10px;
+    float: left;
+    animation: 1.5s infinite anim-th;
+    margin-top: 20px;
+}
+@keyframes anim-th{
+    0%{transform: rotatex(0);}
+    100%{transform: rotatex(90deg);}
+}
+.four{
+    animation: 1.5s infinite anim-four;
+    margin-top: 20px;
+}
+@keyframes anim-four{
+    0%{transform: scale(01.5s);}
+    100%{transform: scale(1.5);}
+}
+.fiv{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 10px;
+    float: left;
+    animation: 1.5s infinite anim-fiv;
+    margin-top: 20px;
+}
+@keyframes anim-fiv{
+    0%{transform: rotate(90deg);}
+    100%{transform: scalex(-1);}
+}
+    

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <!---owl carsol start-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+        .home-demo .item {
+        background: #ff3f4d;
+    }
+    .home-demo h2 {
+        color: #FFF;
+        text-align: center;
+        padding: 5rem 0;
+        margin: 0;
+        font-style: italic;
+        font-weight: 300;
+    }
+    </style>
+
+
+
+
+</head>
+<body>
+    <!--------------------outer------------------->
+    <div class="container-fluid" style="background-color: rgb(245, 240, 240);" >
+    <!-------------------------------------------->
+    <div class="row sticky-top" style="background-color: blue;">
+        <div class="col-sm-2 mx-auto mt-2 ">
+            <img src="img/fkheaderlogo_exploreplus-44005d.svg "  alt="hi">
+        </div>
+
+        <div class="col-sm-5 mt-2 d-flex  bg mb-1 shadow"> 
+            <i class="fa-solid fa-magnifying-glass mt-2 bg"  style="font-size: 25px;"></i> 
+            <input type="search" class="w-75 rounded-2 border-0 re ps-4 bg"  placeholder="search for Product, Brands and More"/>
+        </div>
+        <div class="col-sm-4 mt-3">
+            <i class="fa-solid fa-user bc"></i>
+            <select class="border-0">
+            <option > Login</option>
+            </select>
+
+            <i class="fa-solid fa-cart-shopping ms-4"></i> Cart
+            
+            <i class="fa-solid fa-box ms-4 s"></i> Become a seller
+
+            
+        </div>
+    </div>
+    <!-------------------------------------------->
+    <!--------------------------------------------->
+    <div class="row">
+        <div class="col-sm-12 bg-white ">
+            <nav class="navbar navbar-expand-lg bg-white">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><small> <strong>Home</strong></small></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#"> <small> <strong>More</strong></small> </a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>Electronic</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>Care products</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>Beauty & Toys</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>Travel</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>Baby & Toys</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>Flipkart Plus</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>Grocery</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>Offer Zone</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           <small> <strong>Flights</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <small> <strong>main</strong></small>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <hr class="hr">
+    </div>
+    <!--------------------------------------------->
+    <!--------------------------------------------->
+    <div class="row" style="background-color: rgb(245, 240, 240);" >
+        <div class="col-sm-12" style="background-color: whitesmoke;">
+            <h5 class="mb-3 mt-3">Big Year End Sale</h5>
+        </div>
+    </div>
+    <!---------------------------------------------->
+    <div class="row">
+        <div class="col-sm-12 mx-auto">
+            <img src="grocery/a10.png" class="h-100 w-100" alt="">
+        </div>
+    </div>
+    <!---------------------------------------------->
+    <!------------product start-------------------->
+    <div class="row">
+        <div class="col-sm-3">
+            <img src="grocery/x1.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-3">
+            <img src="grocery/x2.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-3">
+            <img src="grocery/x3.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-3">
+            <img src="grocery/x4.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!-----------product end----------------------->
+     <!---------------------------------------------->
+     <div class="row p-4">
+        <div class="col-sm-12 mx-auto">
+            <img src="grocery/x5.png" class="h-100 w-100" alt="">
+        </div>
+    </div>
+    <!---------------------------------------------->
+    <!-------------------------------------------->
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x6.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/c86c99cda495c1a3.webp" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x8.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!--------------------------------------------->
+    <!-------------------------------------------->
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x9.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x10.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x11.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!--------------------------------------------->
+    <!-----------------Kitchen start----------------------------->
+    <div class="row">
+        <div class="col-sm-12 mx-auto">
+            <img src="grocery/x12.png" class="h-100 w-100" alt="">
+        </div>
+    </div>
+    <!-------------------------------------------->
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x13.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x14.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x15.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!--------------------------------------------->
+    <!-------------------------------------------->
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x16.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x17.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x18.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!--------------------------------------------->
+    <!-------------------Kitchen end--------------------------->
+     <!-----------------washing Machine start----------------------------->
+     <div class="row">
+        <div class="col-sm-12">
+            <img src="grocery/1bc78facea359201.webp" class="h-100 w-100" alt="">
+        </div>
+     </div>
+      <!-------------------------------------------->
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x23.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x24.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x25.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!--------------------------------------------->
+     <!-------------------------------------------->
+     <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x20.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x21.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x22.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!--------------------------------------------->
+    <!-----------------next start----------------------------->
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="grocery/x27.png" class="h-100 w-100" alt="">
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-sm-12">
+            <img src="grocery/x26.png" class="h-100 w-100" alt="">
+        </div>
+     </div>
+      <!-------------------------------------------->
+     <!-----------------washing Machine End----------------------------->
+     <!-------------------------------------------->
+     <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x28.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x29.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x30.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!--------------------------------------------->
+    <!-------------------------------------------->
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x31.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x32.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x33.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!--------------------------------------------->
+     <!-----------------Home Application start----------------------------->
+     <div class="row">
+        <div class="col-sm-12">
+            <img src="grocery/x34.png" class="h-100 w-100" alt="">
+        </div>
+     </div>
+      <!-------------------------------------------->
+       <!-------------------------------------------->
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x35.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x36.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x37.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <!-----------------Air Application start----------------------------->
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="grocery/x38.png" class="h-100 w-100" alt="">
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x39.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x40.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x41.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x42.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x43.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x44.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+      <!-------------------------------------------->
+      <div class="row">
+        <div class="col-sm-12">
+            <img src="grocery/x45.png" class="h-100 w-100" alt="">
+        </div>
+     </div>
+     <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x46.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x47.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x48.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="grocery/x49.png" class="w-100 h-100" alt="">
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x50.png" class="w-100 h-100" alt="">   
+        </div>
+        <div class="col-sm-4">
+            <img src="grocery/x51.png" class="w-100 h-100" alt="">
+        </div>
+    </div>
+      <!------------------------------------------->
+      <!-----------------Televisions start---------->
+      <div class="row" style="border: 0.1px solid rgb(31, 26, 26);">
+        <div class="col-sm-10 mt-3">
+            <b class="ms-5 mt-2">Televisions <br> <p class="ms-5 ">Best Deals to SHOP</p> </b>
+        </div>
+        <div class="col-sm-2">
+            <input type="button" value="ViewAll" style="height: 40px; width: 95px; background-color: blue; border: none;" class="mt-3 shadow text-white " >
+        </div>
+      </div>
+      <!---------------Televisions End-------------->
+              <!-----------------owel carusol start------->
+              <div class="row">
+                <div class="col-sm-12 p-2">
+                  <div class="home-demo bg-white">
+                    <div class="owl-carousel owl-theme">
+                      <div class="col p-4">
+                        <div class="card h-100 " style="border: none;">
+                          <img src="grocery/x55.png" class="card-img-top w-100 p-3"   alt="...">
+                          <div class="card-body">
+                            <p class="card-title text-center">Kodak Televisions</p>
+                            <p class="card-text text-center e">No COST EMI <br> <small>UP To 50% Off</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col p-4">
+                        <div class="card h-100 " style="border: none;">
+                          <img src="grocery/x56.png" class="card-img-top w-100  p-3"   alt="...">
+                          <div class="card-body">
+                            <p class="card-title  text-center">Best 40 43 inch Tvs</p>
+                            <p class="card-text text-center e"># Just Here<br> <small>From ₹19,999</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col p-4">
+                        <div class="card h-100 " style="border: none;">
+                          <img src="grocery/x58.png" class="card-img-top w-100  p-3"   alt="...">
+                          <div class="card-body">
+                            <p class="card-title  text-center"> EnvisionX1..</p>
+                            <p class="card-text text-center e">just ₹37,749 <br> <small>₹45,999</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col p-4">
+                        <div class="card h-100 " style="border: none;">
+                          <img src="grocery/x59.png" class="card-img-top w-100  p-3"   alt="...">
+                          <div class="card-body">
+                            <p class="card-title  text-center">LG UR7500 108CM</p>
+                            <p class="card-text text-center e">Just ₹24,749<br> <small> ₹43,999</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col p-4">
+                        <div class="card h-100 border-0">
+                          <img src="grocery/x57.png" class="card-img-top w-100  p-3"   alt="...">
+                          <div class="card-body">
+                            <p class="card-title  text-center"> OnePlus Y1 80CM</p>
+                            <p class="card-text text-center e">No COST EMI <br> <small>UP To 50% Off</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col p-3 ">
+                        <div class="card h-100  border-0">
+                          <img src="grocery/x52.png" class="card-img-top w-100 p-3  " alt="...">
+                          <div class="card-body">
+                            <p class ="card-title text-center">MI Televisions</p>
+                            <p class="card-text text-center e">No COST EMI <br> <small>UP To 50% Off</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col p-3">
+                        <div class="card h-100 " style="border: none;">
+                          <img src="grocery/x53.png" class="card-img-top w-100 p-3" alt="...">
+                          <div class="card-body">
+                            <p class="card-title  text-center">Samsung Televisions</p>
+                            <p class="card-text text-center e">No COST EMI <br> <small>UP To 50% Off</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col p-3">
+                        <div class="card h-100 " style="border: none;">
+                          <img src="grocery/x54.png" class="card-img-top w-100 p-3"  alt="...">
+                          <div class="card-body">
+                            <p class="card-title  text-center">LG Televisions </p>
+                            <p class="card-text text-center e">No COST EMI <br> <small>UP To 50% Off</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+               </div>
+              <!---------------owel carusol end----------->
+
+            <!-----------------Footer start---------->
+            <div class="row bg-dark">
+                <div class="col-sm-2 mt-3">
+                  <div class="row">
+                    <div class="col-sm-10">
+                      <ul class="text-white">
+                        <small class=" j">About</small>
+                       <li class="list-unstyled mt-3"><a class="nav-link"  href="Careers"> <small>ContactUs</small></a>  </a></li>
+                       <li class="list-unstyled "><a class="nav-link" href="#"> <small>AboutUs</small></a></li>
+                       <li class="list-unstyled "><a class="nav-link" href="#"> <small>Careers</small></a></li>
+                       <li class="list-unstyled "><a class="nav-link" href="#"> <small>Flipkart Stories</small></a></li>
+                       <li class="list-unstyled "><a class="nav-link" href="#"> <small>Press</small></a></li>
+                       <li class="list-unstyled "><a class="nav-link" href="#"> <small>Flipkart Wholesale</small></a></li>
+                       <li class="list-unstyled "><a class="nav-link" href="#"> <small>Cleartip</small></a></li>
+                       <li class="list-unstyled "><a class="nav-link" href="#"> <small>Corporate information</small></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-1 mt-3">
+                  <ul class="text-white">
+                    <small class="j">Help</small>
+                    <li class="list-unstyled"><a class="nav-link mt-3" href="#" ><small>payments</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Shipping</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Cancellation</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>FAQ</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Report infringement</small></a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-2 mt-3 mx-auto">
+                  <ul class="text-white">
+                    <small class="text-center j mb-3">Consumer Policy</small>
+                    <li class="list-unstyled"><a class="nav-link mt-3" href="#" ><small>Cancellation & Returns</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Terms Of Use</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Security</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Privacy</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Sitemap</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Griveance Redressal</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>ERP Compilance</small></a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-1 mt-3">
+                  <ul class="text-white">
+                    <small class="text-center j mb-3">Social</small>
+                    <li class="list-unstyled"><a class="nav-link mt-3" href="#" ><small>Facebook</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Twitter</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>YouTube</small></a></li>
+                    
+                  </ul>
+          
+                </div>
+                <div class="col-sm-3 mt-2">
+                <ul class="text-white ms-5">
+                    <small class="text-center j mb-3">MailUs</small>
+                    <li class="list-unstyled"><a class="nav-link mt-3" href="#" ><small>Flipkart Internet Private Limited</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Buildings Alyssa Begonia &</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Clove Embassy Tech Village</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Outer Ring Road Devarabeesanahalli Village</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Bengaluru, 560103</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Karnataka, India</small></a></li>
+                    
+                  </ul>
+                </div>
+                <div class="col-sm-3 mt-2">
+                  <ul class="text-white">
+                    <small class="text-center j mb-3">Registred Office Address</small>
+                    <li class="list-unstyled"><a class="nav-link mt-3" href="#" ><small>Flipkart Internet Private Limited</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Buildings Alyssa Begonia &</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Clove Embassy Tech Village</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Outer Ring Road Devarabeesanahalli Village</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Bengaluru, 560103</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Karnataka, India</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>CIN : U51109KA2012PTC066107</small></a></li>
+                    <li class="list-unstyled"><a class="nav-link" href="#" ><small>Telephone :044-45614700</small></a></li>
+                   
+                  </ul>
+                </div>
+                <hr class="hr">
+              </div>
+                <!-------------------------------------------------->
+        <div class="row bg-dark">
+          <div class="col-sm-2 text-white">
+            <i class="fa-solid fa-box ms-4 f"></i> Become a seller
+
+          </div>
+          <div class="col-sm-1 text-white">
+         <i class="fa-solid fa-star f "></i>Advertise
+          </div>
+          <div class="col-sm-1 text-white">
+            <i class="fa-solid fa-gift f ms-2"></i> Giftcard
+          </div>
+          <div class="col-sm-2 text-white">
+            <i class="fa-solid fa-circle-question f ms-5" ></i> Help Center
+          </div>
+          <div class="col-sm-2 text-white">
+            <i class="fa-regular fa-copyright j"></i> 2007-2024 Flipkart.Com
+          </div>
+          <div class="col-sm-1">
+            <img src="grocery/payment-method-c454fb.svg" class="shadow" alt="">
+          </div>
+        </div>
+        <!-------------------------------------------------->
+      <!--------------Footer End-------------->
+      
+
+    </div>
+    <!-----------------outer e-------------------->
+</body>
+<!------------owl carsol start---------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+$(function() {
+    // Owl Carousel
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+      items: 5,
+      margin: 10,
+      loop: true,
+      nav: true
+    });
+  });
+</script>  
+<!------------owl carsol end------------>
+</html>
